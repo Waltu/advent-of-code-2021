@@ -1,29 +1,23 @@
 {
-    "include": [
-        "./src/*.ts",
-        "./src/**/*.ts",
-        "jest.config.ts",
-        "jest.setup.ts",
-    ],
-    "compilerOptions": {
-        "resolveJsonModule": true,
-        "sourceMap": true,
-        "noImplicitAny": true,
-        "noUnusedLocals": true,
-        "noImplicitThis": true,
-        "strictNullChecks": true,
-        "noImplicitReturns": true,
-        "preserveConstEnums": true,
-        "forceConsistentCasingInFileNames": true,
-        "strict": true,
-        "esModuleInterop": true,
-        "removeComments": true,
-        "moduleResolution": "node",
-        "allowSyntheticDefaultImports": true,
-        "baseUrl": "."
-    },
-    "exclude": [
-      "node_modules/**/*",
-      ".webpack/**/*" 
-    ]
+  "include": ["./src/*.ts", "./src/**/*.ts", "jest.config.ts", "jest.setup.ts"],
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "noImplicitReturns": true,
+    "preserveConstEnums": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "removeComments": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "outDir": "lib",
+    "lib": ["ES2019"]
+  },
+  "exclude": ["node_modules/**/*", ".webpack/**/*", "lib/**/*"]
 }

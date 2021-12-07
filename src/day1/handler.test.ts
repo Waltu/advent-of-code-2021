@@ -1,7 +1,7 @@
 describe('day1', () => {
-  it('random', () => {
+  it('randodm', async () => {
     expect.assertions(1)
     const num = 1
-    expect(num).toBe(1)
+    expect(num).toBe(2)
   })
 })

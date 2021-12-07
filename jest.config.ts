@@ -4,10 +4,9 @@ const config: Config.InitialOptions = {
   testEnvironment: 'node',
   roots: ['<rootDir>/src'],
   transform: {
-    '^.+\\.tsx?$': 'ts-jest'
+    '^.+\\.ts?$': 'ts-jest'
   },
   moduleNameMapper: {
-    '\\$(.*)': '<rootDir>/../../$1',
     'src/(.*)': '<rootDir>/src/$1'
   },
   coverageThreshold: {
