@@ -17,7 +17,8 @@
     "allowSyntheticDefaultImports": true,
     "baseUrl": ".",
     "outDir": "lib",
-    "lib": ["ES2019"]
+    "lib": ["ES2019"],
+    "inlineSourceMap": true
   },
   "exclude": ["node_modules/**/*", ".webpack/**/*", "lib/**/*"]
 }

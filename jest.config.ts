@@ -9,14 +9,6 @@ const config: Config.InitialOptions = {
   moduleNameMapper: {
     'src/(.*)': '<rootDir>/src/$1'
   },
-  coverageThreshold: {
-    global: {
-      branches: 50,
-      functions: 50,
-      lines: 50,
-      statements: 50
-    }
-  },
   maxWorkers: 1,
   coverageReporters: ['json'],
   clearMocks: true,
